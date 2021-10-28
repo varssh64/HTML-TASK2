@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+<style>
+    body{
+        background-color: rgba(185, 135, 231, 0.623);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div{
+margin: auto;
+width: 60%;
+background: rgba(0,0,0,0.2);
+padding: 15px;
+
+}
+label{
+width: 40%;
+display: inline-block;
+padding: 10px;
+font-size: 30px;
+font-color: white;
+}
+button{
+width: 40%;
+margin: 0px 200px 0px 200px;
+padding: 10px;
+font-size: 20px;
+
+border-radius: 30px 30px 30px 30px;
+border: 1px solid black;
+cursor: pointer;
+
+}
+input{
+    width: 100%;
+padding:10px;
+}
+form{
+    width:50%;
+
+}
+
+    a{
+        font-size: 30px;
+    }
+</style>
+    </head>
+    <body><h2>Welcome to login page</h2></body>
+    <form action=Dashboard.html method="post">
+        <label for=user_name>USER NAME</label>
+        <input type="text" name="user_name" placeholder="Enter your username:">
+        <br>
+        <label for=password>PASSWORD</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <br>
+        <button type="submit" >LOGIN</button>
+        <br>
+        <a href=Register.html>Create an account!</a>
+    </form>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register page</title>
+<style>
+    body{
+background-color: cyan;
+    }
+h2{
+background:#;
+text-align: center;
+padding: 10px;
+}
+
+div{
+margin: auto;
+width: 60%;
+background: rgba(0,0,0,0.2);
+padding: 15px;
+
+}
+label{
+width: 40%;
+display: inline-block;
+padding: 10px;
+font-size: 30px;
+font-color: white;
+}
+button{
+width: 40%;
+margin: 0px 200px 0px 200px;
+padding: 10px;
+font-size: 20px;
+
+border-radius: 30px 30px 30px 30px;
+border: 1px solid black;
+cursor: pointer;
+
+}
+input{
+    width: 100%;
+padding:10px;
+}
+form{
+    width:50%;
+
+}
+
+
+
+</style>
+
+    </head>
+    <body><h2>Welcome to Register page</h2></body>
+    <form action=Login.html method="get">
+        <label for=First_name>FIRST NAME</label>
+        <input type="text" name="First_name" placeholder="Enter your first name:" required><br>
+        <label for=Last_name>LAST NAME</label>
+        <input type="text" name="Last_name" placeholder="Enter your last name" required><br>
+        <label for=Date of birth>DATE OF BIRTH</label>
+        <input type="date" name="Date of birth" placeholder="Enter your date of birth"><br>
+        <label for=Mail-id>MAIL-ID</label>
+        <input type="email" name="Mail_id" placeholder="Enter your mail-id"><br>
+        <label for=Phone number>PHONE NUMBER</label>
+        <input type="tel" name="Phone number" placeholder="Enter your phone number"><br>
+        <label for=Password>PASSWORD</label>
+        <input type="password" name="Password" placeholder="Enter your Password" required><br>
+        <button type="submit" >REGISTER</button><br>
+        <a href=Login.html>Already have an account!</a>
+    </form>
+
+</html>
